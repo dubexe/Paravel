@@ -1,0 +1,14 @@
+{
+    "name": "paravel/paravel",
+
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://hgazaille@bitbucket.org/hgazaille/paravel.git"
+        }
+    ],
+
+    "require": {
+        "paravel/framework": "dev-feature/composer"
+    }
+}

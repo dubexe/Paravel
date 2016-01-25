@@ -1,0 +1,6 @@
+# Should never be atteinable in production environment.
+# Acts as a relay to /public in development environment.
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) public/index.php?path=$1 [L]
