@@ -7,8 +7,6 @@ class MainController extends Controller
 {
     public function index()
     {
-        $user = User::findOrFail(17);
-
-        return View::make('index', ['user' => $user]);
+        return View::make('index');
     }
 }

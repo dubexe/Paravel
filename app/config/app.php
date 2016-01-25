@@ -9,7 +9,7 @@ return [
 	'debug' => true,
 
 	//
-	'fallback_locale' => 'en',
+	'fallback_locale' => 'fr',
 
 	//
 	'paths' => [

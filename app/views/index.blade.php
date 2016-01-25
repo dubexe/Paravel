@@ -1,5 +1,5 @@
 @extends('layouts/default')
 
 @section('main')
-    <h2>Welcome {{ $user->username }}.</h2>
+    <h2>{{ __('website.welcome') }}</h2>
 @stop
